@@ -35,3 +35,7 @@ p   {
 span   {
     font-weight: 700;
 }
+
+button {
+    cursor: pointer;
+}
