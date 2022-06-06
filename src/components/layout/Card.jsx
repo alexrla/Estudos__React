@@ -47,11 +47,17 @@ const Title = styled.div`
 `;
 
 const Content = styled.div`
+    align-items: center;
+
     background-color: #FFFFFF;
 
     color: #000000;
 
+    display: flex;
+
     flex-grow: 1;
+
+    justify-content: center;
 
     padding: 10px;
 `;
