@@ -16,7 +16,14 @@ import UsuarioInfo from './components/condicional/UsuarioInfo';
 import DiretaPai from "./components/comunicacao/DiretaPai";
 import IndiretaPai from './components/comunicacao/IndiretaPai';
 import Input from "./components/formulario/Input";
-
+import StateLessComponent from "./components/others/StateLessComponent";
+import ClassComponent from "./components/others/ClassComponent";
+import CicloDeVida from "./components/others/CicloDeVida";
+import Eventos from "./components/others/Eventos";
+import RenderizacaoCondicional from './components/others/RenderizacaoCondicional';
+import Listas from "./components/others/Listas";
+import Formulario from "./components/others/Formulario";
+import FormularioP2 from "./components/others/FomularioP2";
 
 export default function App(props) {
   return (
@@ -71,6 +78,38 @@ export default function App(props) {
 
             <Card titulo="#11 - Componente Controlado" cor="#E45F56">
                 <Input />
+            </Card>
+
+            <Card titulo="#12 - Statelles Component (componente funcional sem estado)" cor="#429DA9">
+                <StateLessComponent nome="Alex" />
+            </Card>
+
+            <Card titulo="#13 - Class Component (componente de classe)" cor="#6983D4">
+                <ClassComponent />
+            </Card>
+
+            <Card titulo="#14 - Ciclo de vida dos componentes" cor="#E6877A">
+                <CicloDeVida />
+            </Card>
+
+            <Card titulo="#15 - Eventos" cor="#A9BDB5">
+                <Eventos />
+            </Card>
+
+            <Card titulo="#16 - Renderização Condicional p/2" cor="#DEBE97">
+                <RenderizacaoCondicional />
+            </Card>
+
+            <Card titulo="#17 - Trabalhando com listas" cor="#B2E0B1">
+                <Listas />
+            </Card>
+
+            <Card titulo="#18 - Formulário p/1" cor="#E08600">
+                <Formulario />
+            </Card>
+
+            <Card titulo="#19 - Formulário p/2" cor="#E75253">
+                <FormularioP2 />
             </Card>
         </div>
     </Container>
