@@ -57,6 +57,8 @@ const Content = styled.div`
 
     flex-grow: 1;
 
+    flex-direction: column;
+
     justify-content: center;
 
     padding: 10px;
